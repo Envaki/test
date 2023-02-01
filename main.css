@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background: #ffffff;
+}
+/* Section 1*/
+
+.section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content-one {
+    display: flex;
+    margin-top: 113px;
+    flex-direction: column;
+    align-items: center;
+}
+.title-img {
+    display: flex;
+    justify-content: center;
+}
+.text-p {
+    margin-top: 72px;
+}
+.text-p p {
+    font-size: 1.2em;
+}
+.text-p p:last-child {
+    margin-top: 36px;
+}
+
+/* Section 2*/
+.title {
+    margin: 0 auto;
+    font-size: 2.2em;
+    text-align: center;
+    max-width: 960px;
+}
+.title h1 {
+    line-height: initial;
+}
+.content-two-img {
+    background: #f7f7f7;
+    margin-top: 162px;
+}
+/* Section 3*/
+.content-three {
+    margin-top: 112px;
+}
+/* Section 4*/
+.content-for {
+    margin-top: 118px;
+}
+/* Section 5*/
+.content-five {
+    margin-top: 137px;
+}
+.text-characteristics {
+    margin-top: 100px;
+} 
+.text-characteristics-item {
+    display: flex;
+    width: 790px;
+    margin: 0 auto;
+    font-size: 1.7em;
+}
+.text-characteristics_item:first-child {
+    margin-right: 85px;
+}
+.line {
+    height: 2px;
+    width: 145px;
+    background: #000;
+    margin: 50px 0 50px 0;
+}
+/* Section 5*/ 
+.content-last {
+    margin-top: 165px;
+}
+
+@media screen and (max-width: 1024px) {
+    .img-wi {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .text-characteristics {
+        margin: 100px 30px 0 30px;
+    }
+    .text-characteristics-item {
+        width: 100%;
+    }
+    .text-characteristics_item:first-child {
+        margin-right: 25px;
+    }
+    .title {
+        font-size: 2em;
+    }
+    .text-p p:last-child {
+        margin-top: 16px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .title {
+        font-size: 1.3em;
+    }
+    .text-characteristics {
+        margin: 100px 10px 0 10px;
+    }
+    .text-characteristics-item {
+        font-size: 1.4em;
+    }
+}
+@media screen and (max-width: 375px) {
+    .text-characteristics_item:first-child {
+        margin-right: 15px;
+    }
+}
